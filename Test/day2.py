@@ -32,9 +32,9 @@ if userName==user:
 
         verifica_tion=int(input("Enter verification code :"))
         if verification==verifica_tion:
-            print('success')
+            print('success Login')
         else:
-            print('worng')
+            print('worng Login')
     else:
         print("worng password")
 else:
