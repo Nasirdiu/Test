@@ -34,7 +34,7 @@ if userName==user:
         if verification==verifica_tion:
             print('success Login')
         else:
-            print('worng Login')
+            print('worng Logins')
     else:
         print("worng password")
 else:
