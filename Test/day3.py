@@ -33,7 +33,7 @@ for party in politicleParties:
             print('corruption Starus :' + corruptionStatus[0])
             continue
         elif year=='2005':
-            print('Hand Won!')
+            print('Hand Won yeah!')
             print('country Status :' + corruptionStatus[0])
             print('corruption Starus :' + corruptionStatus[0])
         elif year=='2001':

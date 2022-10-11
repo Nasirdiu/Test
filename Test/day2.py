@@ -1,24 +1,31 @@
-# a=5;b=10
-# if a<b:
-#     print("Hello World")
+'''
+a=5;b=10
+if a<b:
+    print("Hello World")
+'''
+''' 
+a=5 ; b=10
+if a<b and a>0:
+    print("a is smaller than b but greater than 0")
+'''
+''' 
+a=10 ;b=5
+if a<b:
+    print("a is smaller than b")
+else:
+    print("a is greater than b")
 
-# a=5 ; b=10
-# if a<b and a>0:
-#     print("a is smaller than b but greater than 0")
+'''
+''' 
+a=10
+if a==0:
+    print("zero")
+elif a>0:
+    print("Posstive Number")
+else:
+    print("Negtive Number")
+'''
 
-# a=10 ;b=5
-# if a<b:
-#     print("a is smaller than b")
-# else:
-#     print("a is greater than b")
-
-# a=10
-# if a==0:
-#     print("zero")
-# elif a>0:
-#     print("Posstive Number")
-# else:
-#     print("Negtive Number")
 
 user="nasir"
 password=1234
