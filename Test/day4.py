@@ -42,6 +42,13 @@ years[1:5] = [ 2000 , 2001 ]
 print ("Years: ", years)
 
 '''
+'''
+list1 = [1, 2,500,20, 3,4,5,6,7,8,9,10]
+list1.insert(2,1000)
+print(list1)
+
+'''
+
 ''' 
 #Delete
 years = [ 1990 , 1991 , 1992 , 1993 , 1994 , 1995 , 1996 ]
@@ -68,14 +75,32 @@ hasThree = "One" in list2
 print ("'Three' in list2? ", hasThree)
 '''
 '''
-#min max lenth list
-list1 = [1, 2, 3]
+#min max lenth count extend index list
+list1 = [1, 2, 3,2,4,5,2,8,4,5,2,3,5,7,1,2,2]
 list2 = ["One", "Two"]
+list4=[100,500]
+#list3=list1.index(7)
+#list3=list1.count(3)
 list3=len(list1)
 print(list3)
+
+list1.extend(list4)
+print(list1)
 '''
-years = [ 1990 , 1991 , 1992 , 1993 , 1993 , 1993 , 1994 ]
-print ("Years: ", years)
-# Reverse the list.
-years.reverse()
-print ("Years (After reverse): ", years)
+'''
+#Reversed
+list1 = [1, 2,500,20, 3,4,5,6,7,8,9,10]
+list1.reverse()
+print(list1)
+'''
+'''
+#pop
+list1 = [1, 2,500,20, 3,4,5,6,7,8,9,10]
+list_remove=list1.pop(2)
+print(list1)
+print(list_remove)
+'''
+#sort
+list1 = [1, 2,500,20, 3,4,5,6,7,8,9,10]
+list1.sort()
+print(list1)
