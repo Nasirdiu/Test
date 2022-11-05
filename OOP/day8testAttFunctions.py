@@ -1,5 +1,6 @@
 from day8player import Player
 player1 = Player("Tom", 20)
+
 print ("getattr(player1,'name') = " , getattr(player1,"name") )
 
 print ("setattr(player1,'age', 21): ")
